@@ -226,7 +226,7 @@ Publish the website in the given URL.
 ![Screenshot (51)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c05840c8-8dea-4c9c-a05d-bd51ecb0c067)
 ![Screenshot (52)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/5876dd09-3a74-42ed-a4ef-17d8a2e35a6a)
 ![Screenshot (55)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/71197c4c-1a90-4c12-ae7e-9d2f11565336)
-![Screenshot (54)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c8547f06-ebf4-4c8e-8d3d-314e6587b8ac)
+![Screenshot (56)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/dcd4578f-d09d-4003-a9c8-0764cad754ef)
 
 
 
