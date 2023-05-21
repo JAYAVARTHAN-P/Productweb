@@ -1,27 +1,26 @@
 # Product Company Website
 ## AIM:
-
 To develop a static company website to display the sale of products.
 ## Design Steps:
-Step 1:
+## Step 1:
 
 Requirement collection.
-Step 2:
+## Step 2:
 
 Creating the layout using HTML and CSS.
-Step 3:
+## Step 3:
 
 Updating the sample content.
-Step 4:
+## Step 4:
 
 Choose the appropriate style and color scheme.
-Step 5:
+## Step 5:
 
 Validate the layout in various browsers.
-Step 6:
+## Step 6:
 
 Validate the HTML code.
-Step 7:
+## Step 7:
 
 Publish the website in the given URL.
 ## Code:
@@ -222,9 +221,9 @@ Publish the website in the given URL.
             
 
 ## Output:
-![Screenshot (49)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/86cb005a-7863-4603-8b2e-a4e6fba911cf)
-![Screenshot (51)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c05840c8-8dea-4c9c-a05d-bd51ecb0c067)
-![Screenshot (52)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/5876dd09-3a74-42ed-a4ef-17d8a2e35a6a)
+![Screenshot (57)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c9a119c1-9c11-4181-8c27-11a14c2e7b13)
+![Screenshot (58)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/a4722f0b-fe2f-4fad-8ea5-bec43b234fe0)
+![Screenshot (59)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/cdfe8c14-8496-4803-8f27-c45445f672fe)
 ![Screenshot (55)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/71197c4c-1a90-4c12-ae7e-9d2f11565336)
 ![Screenshot (56)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/dcd4578f-d09d-4003-a9c8-0764cad754ef)
 
