@@ -25,702 +25,210 @@ Step 7:
 
 Publish the website in the given URL.
 ## Code:
-
-home.html
-
+```
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            Home Page
-        </title>
-        <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-    <style>
-    .text{
-        color:blueviolet;
-        font-family:'Lucida Sans';
-        font-size: 30px;
-        text-align:center;
+<html>
+<head>
+  <title>Software Product Development Company</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    img{
-        height: 150px;
-        width: 150px;
-        align-items:center;
+
+    /* Header Styles */
+    header {
+      background-color: #345995;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
     }
-    </style>
 
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
-                    <div class="prod">
-                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>Fashion style</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <marquee><b>Feel BEAUTY through our Store</b></marquee>
-                    <p style="color:purple; font-family:'Tahoma'; font-size:20px;"> This is the Official Website of our Fancy Store</p>
-                    </div>
-                    <p>Buy Fancy items and Cosmetics online for Women from <span style="background-color:lime">Fashion style</span>
-                         for Rs.100 | Buy cosmetics in ONE SIZE online | 7 Days Returns | Trend setting models | And much more</p>
-                    <br>
-                <center>
-                    <img src="/static/images/ben1.png">
-                    <img src="/static/images/ben2.jpg">
-                    <img src="/static/images/ben3.png">
-                    <img src="/static/images/ben4.jpg">
-                    <img src="/static/images/ben5.png">
-                    <img src="/static/images/ben6.png">
-                    <img src="/static/images/ben7.png">
-                </center>
-                </div>
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by magesh</footer></div>
-            </div>
-        </div>
-    </body>
-</html>
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
 
-products.html
+    /* Main Content Styles */
+    main {
+      padding: 40px;
+    }
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            Products
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-        <style>
-        .home{
-            height: 1555px;
-            width: 85%;
-            border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
-            margin-left: auto;
-            margin-right:auto;
-            background-color:cyan;
-        }
-        .text{
-            color:blueviolet;
-            font-family:'Lucida Sans';
-            font-size: 30px;
-            text-align:center;
-        
-        }
-        .content{
-            border:3px solid red;
-            background-color: white;
-            width:98%;
-            height:1190px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .ph1{
-            background-image: url(/static/images/item1.png);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:200px;
-            width:30%;
-            position:relative;
-            left: 50px;
-        }
-        .l1{
-            color: gold;
-            position:relative;
-            right:380px;
-            
-            
-        }
-        .ph2{
-            background-image: url(/static/images/item2.png);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:200px;
-            width:30%;
-            position:relative;
-            left: 50px;
-            
-        }
-        .l2{
-            color: sandybrown;
-            position:relative;
-            right:380px;
-        }
-        .ph3{
-            background-image: url(/static/images/item3.png);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:210px;
-            width:30%;
-            position:relative;
-            left: 50px;
-            
-        }
-        .l3{
-            color: burlywood;
-            position:relative;
-            right:380px;
-        }
-        .ph4{
-            background-image: url(/static/images/item4.png);
-            background-position-x: center;
-            border:1px solid black;
-            height:200px;
-            width:30%;
-            position:relative;
-            left: 700px;
-            bottom:930px;
-            background-size: 310px;
-            background-repeat: no-repeat;
-            
-            
-        }
-        .l4{
-            color: burlywood;
-            position:relative;
-            left:270px;
-            bottom: 930px;
-        }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #345995;
+      font-family: 'Raleway', Arial, sans-serif;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      background-color: #f7f7f7;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .product h3 {
+      font-size: 24px;
+      margin: 0;
+      color: #333;
+      font-family: 'Raleway', Arial, sans-serif;
+    }
+
+    .product p {
+      color: #666;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    .people {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .person {
+      width: 250px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .person img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .person h3 {
+      font-size: 24px;
+      margin: 0;
+      color: #333;
+      font-family: 'Raleway', Arial, sans-serif;
+    }
+
+    .person p {
+      color: #666;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .contact-info p {
+      color: #666;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #345995;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to HackMaster Innovations </h1>
+  </header>
+
+  <main>
+    <h2>Products Available</h2>
+
     
-        .ph5{
-            background-image: url(/static/images/item5.png);
-            background-position-x: center;
-            border:1px solid black;
-            height:200px;
-            width:30%;
-            position:relative;
-            left: 700px;
-            bottom:930px;
-            background-size: 280px;
-            background-repeat: no-repeat;
-            
-            
-        }
-        .l5{
-            color: cadetblue;
-            position:relative;
-            left:270px;
-            bottom: 930px;
-        }
+      <div class="Products Available">
+        <img src="/static/images/omgcable.jpg" alt="Product 1">
+        <h3>THE O.MG ELITE CABLE</h3>
+        <p>Is that phone charger doing more than you think it is?</p>
+      </div>
 
-        .ph6{
-            background-image: url(/static/images/item6.png);
-            background-position-x: center;
-            border:1px solid black;
-            height:200px;
-            width:30%;
-            position:relative;
-            left: 700px;
-            bottom:930px;
-            background-size: 280px;
-            background-repeat: no-repeat;
-            
-            
-        }
-        .l6{
-            color: crimson  ;
-            position:relative;
-            left:270px;
-            bottom: 930px;
-        }
-        .bot{
-            text-align:center;
-            font-size:larger;
-            color:magenta;
+      
+      <div class="Products Available">
+        <img src="/static/images/flipper.jpg" alt="Product 2">
+        <h3>THE FLIPPER ZERO IS A SWISS ARMY KNIFE </h3>
+        <p>An all-purpose tool for making wireless mischief</p>
+      </div>
 
-        }
-        </style>
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</a></div>
-                    <div class="prod">
-                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>Products</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <p>These are the products that are available now</p>
-                    </div>
-                    <div class="ph1"></div>
-                    <div class="l1"><p align="center"><b>Lipstick<br> Price: 1999.00</b><br><br><br><br></p></div>
-                    <div class="ph2"></div>
-                    <div class="l2"><p align="center"><b>Eyeliner<br> Price: 1899.00</b><br><br><br><br></p></div>
-                    <div class="ph3"></div>
-                    <div class="l3"><p align="center"><b>Compact Powder<br> Price: 1999.00</b><br<br><br><br></p></div>
-                    <div class="ph4"></div>
-                    <div class="l4"><p align="center"><b>Foundation<br> Price: 6999.00</b><br><br><br><br></p></div>
-                    <div class="ph5"></div>
-                    <div class="l5"><p align="center"><b>Make-up Brush<br> Price: 3999.00</b><br><br><br><br></p></div>
-                    <div class="ph6"></div>
-                    <div class="l6"><p align="center"><b>Primer<br> Price: 5999.00</b><br><br><br><br></p></div>
-         
-                </div>
-                <div class="bot"><p>To Order Online: Call 90 80 70 2009</p></div>
+      <div class="Products Available">
+        <img src="/static/images/huntercat.jpg" alt="Product 2">
+        <h3>THE HUNTER CAT IS THE BODYGUARD FOR YOUR CREDIT CARD</h3>
+        <p>A single-purpose gadget to find out if a credit card reader is stealing your data</p>
+      </div>
 
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by magesh</footer></div>
-            </div>
-        </div>
-    </body>
-</html>
+      
 
-people.html
+      
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            People
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-        <style>
-        .home{
-            height: 3000px;
-            width: 85%;
-            border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
-            margin-left: auto;
-            margin-right:auto;
-            background-color:cyan;
-        }
-        .text{
-        color:blueviolet;
-        font-family:'Lucida Sans';
-        font-size: 30px;
-        text-align:center;
-        
-        }
-        .content{
-            border:2px solid green;
-            background-color:lime;
-            width:98%;
-            height:2690px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .ceoph{
-            background-image: url(/static/images/P1.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:3px solid gold;
-            height:300px;
-            width:20%;
-            position:relative;
-            left: 0px;
-            margin-left:auto;
-            margin-right: auto;
-        }
-        .ceo{
-            color: red;
-            position:relative;
-            text-align:center;
-            
-            
-        }
-        .manph1{
-            background-image: url(/static/images/P2.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;            
-        }
-        .man1{
-            color: red;
-            position:relative;
-            text-align:center;
-            
-        }
-        .manph2{
-            background-image: url(/static/images/P3.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
+    </div>
 
-            
-        }
-        .man2{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        
-        .amph1{
-            background-image: url(/static/images/P4.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:300px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
+    <h2>People behind the company</h2>
 
-            
-        }
-        .am1{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
+    <div class="peoples">
+      <div class="person">
+          <div class="mypic"></div>
+        <img src="/static/images/beach.jpg" alt="Person 1">
+        <h3>Jayavarthan</h3>
+        <p>CEO</p>
+      </div>
 
-        .amph2{
-            background-image: url(/static/images/P6.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:220px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
+    <div class="peoples">
+      <div class="person people behind the company">
+          <div class="mypic"></div>
+        <img src="/static/images/krish.jpg" alt="Person 2">
+        <h3>Jayakrishnan</h3>
+        <p>ETHICAL HACKER</p>
+      </div>
 
-            
-        }
-        .am2{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        .amph3{
-            background-image: url(/static/images/P5.jpg);
-            background-size: 250px;
-            background-position-x: center;
-            background-repeat: no-repeat;
-            border:1px solid black;
-            height:250px;
-            width:20%;
-            position:relative;
-            margin-left:auto;
-            margin-right:auto;
-
-            
-        }
-        .am3{
-            color: red;
-            position:relative;
-            text-align:center;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
-                    <div class="prod">
-                        <a href="products.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>People</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <p>Board Members</p>
-                    <h4><u>Chairman</u></h4>
-                    </div>
-                    <div class="ceoph"></div>
-                    <div class="ceo"><p align="center"><b><h2>Langford</h2></b></div>
-                    <br>
-                    <div class="text">
-                        <p><b><u>Head executives</u></b></p><br>
-                    </div>
-                    <div class="manph1"></div>
-                    <div class="man1"><p align="center"><b><h2>Jack Carla</h2></b></p></div>
-                    <div class="manph2"></div>
-                    <div class="man2"><p><b><h2>Emma Mayor</h2></b></p></div>
-                    <br>
-                    <div class="text"><p><b><u>Managers</u></b></p></div><br>
-                    <div class="amph1"></div>
-                    <div class="am1"><p align="center"><b><h2>Marc Spectre</h2></b></p></div>
-                    <div class="amph2"></div>
-                    <div class="am2"><p align="center"><b><h2>Billie Collinson</h2></b></p></div>
-                    <div class="amph3"></div>
-                    <div class="am3"><p align="center"><b><h2>Jackman Paul</h2></b></p></div><br>
-                    <div class="text">Thank you so much for your kind support!<br>Hope our products had made you more B-E-A-UTIFUL!</div>
-                </div>
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by magesh</footer></div>
-            </div>
-        </div>
-    </body>
-</html>
-
-contact.html
-
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>
-            Contact Us
-        </title>
-        <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/static/css/styles.css">
-    <style>
-    .text{
-        color:blueviolet;
-        font-family:'Lucida Sans';
-        font-size: 30px;
-        text-align:center;
-    }
     
-    </style>
+      
+    </div>
 
-    </head>
-    <body>
-        <div class="home">
-            <div class="header">
-                <header>
-                    <div class=logo></div>
-                    <div class=h>
-                    <a href="home.html" title="Home" style="color: darkred; text-decoration: none;"><b>Home</b></a></div>
-                    <div class="prod">
-                        <a href="product.html" title="Products" style="color: darkred; text-decoration: none;"><b>Products</b></a>
-                    </div>
-                    <div class="people">
-                        <a href="people.html" title="People" style="color:darkred; text-decoration: none;"><b>People</b></a>
-                    </div>
-                    <div class="contact">
-                        <a href="contact.html" title="Contact Us" style="color:darkred; text-decoration: none;"><b>Contact Us</b></a>
-                    </div>
-                </header>
-                <div class="title">
-                    <h1>Contact Us</h1>
-                </div><br>
-                <div class="content">
-                    <div class="text">
-                    <p><b>Here are the details about us
-                    <h5>Do contact us for any need</h5></b></p>
-                    
-                    </div>
-                    <b><h2>Contact Information:</h2></b>
-                    <p><b>&emsp;&ensp;Address:</b>
-                        New state,Queens,United States
-                    </p>
-                    <ul>
-                        <li><b>Landline:</b> 4871683254</li>
-                        <li><b>Mobile</b>: 57136878</li>
-                        <li><b>Facebook</b>: fb/cartoonpro</li>
-                        <li><b>Email Id:</b>deeps@fancyuniv.com</li>
-                    </ul>
-                    <div style="text-align: center;color:violet;font-size:20px;"><b>Use our services and Beautify Yourself!</b></div>
+    <h2>Contact Us</h2>
 
-                </div>
-                <div class="footer">
-                <footer style="color:white">
-                Copyright &copy;2023 Developed by Jenifer Lanford</footer></div>
-            </div>
-        </div>
-    </body>
+    <div class="contact-info">
+      <p>5/13 KRISHNAN KOVIL 1ST Street, THANJAVUR-613001,TAMILNADU,INDIA</p>
+      <p>Phone:9344524024</p>
+      <p>Email: jayavarthanp@example.com</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Designed and developed by JAYAVARTHAN</p>
+  </footer>
+</body>
 </html>
+```
 
-styles.css
-
-        .home{
-            height: 700px;
-            width: 85%;
-            border: 12px solid red;
-            padding-left:10px;
-            padding-right:10px;
-            margin-left: auto;
-            margin-right:auto;
-            background-color:cyan;
-        }
-        .content{
-            border:1px solid whitesmoke;
-            background-color: white;
-            width:95%;
-            height:1190px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .header{
-            height: 128px;
-            width:100%;
-            background-image: url(/static/images/header.jpg);
-            background-size: cover;
             
-        }
-        .logo{
-            height:18%;
-            width: 10%;
-            position:absolute;
-            background-image: url(/static/images/icon.png);
-            background-size:cover;
-            
-        }
-        .prod{
-            height:auto;
-            width:auto;
-            position:relative;
-            bottom:10px;
-            left:550px;
-            border:4px solid transparent;
-            text-align:center;
-            display: inline;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .prod:hover{
-            background-color:red;
-        }
-        .people{
-            height:auto;
-            width:auto;
-            position:relative;
-            bottom:10px;
-            left:700px;
-            border:4px solid transparent;
-            text-align:center;
-            display: inline;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .people:hover{
-            background-color:red;
-        }
-        .contact{
-            height:20px;
-            width:10%;
-            position:relative;
-            bottom:45px;
-            left:1000px;
-            border:4px solid transparent;
-            text-align:center;
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .contact:hover{
-            background-color:red;
-        }
-                
-        .h{
-            height:20px;
-            width:10%;
-            position:relative;
-            top:30px;
-            left:200px;
-            border:4px solid transparent;
-            text-align:center;
-            
-            padding:15px;
-            font-family:'Gill Sans MT';
-            font-size: large;  
-        }
-        .h:hover{
-            background-color:red;
-            overflow:hidden;
-        }
-        .footer{
-            border: 15px solid red;
-            width:98%;
-            height:10px;
-            position:relative;
-            bottom: 1px;
-            background-color:red;
-            text-align:center;
-
-        }
-        .title{
-            border:2px solid pink;
-            background-color:yellow;
-            padding:1px;
-            width:99.7%;
-            height: 70px;
-            text-align:center;
-            font-family:'Impact';
-            margin-left:auto;
-            margin-right: auto;
-            
-        }
-        .content{
-            border:1px solid red;
-            background-color: white;
-            width:98%;
-            height:400px;
-            padding:10px;
-            margin-left:auto;
-            margin-right:auto;
-
-        }
-
 
 ## Output:
+![Screenshot (49)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/86cb005a-7863-4603-8b2e-a4e6fba911cf)
+![Screenshot (51)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c05840c8-8dea-4c9c-a05d-bd51ecb0c067)
+![Screenshot (52)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/5876dd09-3a74-42ed-a4ef-17d8a2e35a6a)
+![Screenshot (55)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/71197c4c-1a90-4c12-ae7e-9d2f11565336)
+![Screenshot (54)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c8547f06-ebf4-4c8e-8d3d-314e6587b8ac)
 
 
-## HTML Validator
 
 
 ## Result:
