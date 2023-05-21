@@ -158,20 +158,29 @@ Publish the website in the given URL.
       <div class="Products Available">
         <img src="/static/images/omgcable.jpg" alt="Product 1">
         <h3>THE O.MG ELITE CABLE</h3>
+        <a href="https://shop.hak5.org/products/omg-cable">https://shop.hak5.org/products/omg-cable</a>
         <p>Is that phone charger doing more than you think it is?</p>
+
+       
+        
+            
       </div>
 
       
       <div class="Products Available">
         <img src="/static/images/flipper.jpg" alt="Product 2">
         <h3>THE FLIPPER ZERO IS A SWISS ARMY KNIFE </h3>
+        <a href="https://www.etsy.com/in-en/market/flipper_zero_device">https://www.etsy.com/in-en/market/flipper_zero_device</a>
         <p>An all-purpose tool for making wireless mischief</p>
+        
       </div>
 
       <div class="Products Available">
         <img src="/static/images/huntercat.jpg" alt="Product 2">
         <h3>THE HUNTER CAT IS THE BODYGUARD FOR YOUR CREDIT CARD</h3>
+        <a href="https://hackerwarehouse.com/product/hunter-cat/">https://hackerwarehouse.com/product/hunter-cat/</a>
         <p>A single-purpose gadget to find out if a credit card reader is stealing your data</p>
+        
       </div>
 
       
@@ -180,7 +189,10 @@ Publish the website in the given URL.
 
     </div>
 
-    <h2>People behind the company</h2>
+   
+    <h2>THE JAYA GROUPS OF COMPANY </h2>
+     <h2>People behind the company</h2>
+
 
     <div class="peoples">
       <div class="person">
@@ -198,6 +210,14 @@ Publish the website in the given URL.
         <p>ETHICAL HACKER</p>
       </div>
 
+      <div class="peoples">
+      <div class="person people behind the company">
+          <div class="mypic"></div>
+        <img src="/static/images/mani.jpg" alt="Person 2">
+        <h3>Jayamani</h3>
+        <p>SOFTWARE DEVELOPER</p>
+      </div>
+
     
       
     </div>
@@ -207,25 +227,32 @@ Publish the website in the given URL.
     <div class="contact-info">
       <p>5/13 KRISHNAN KOVIL 1ST Street, THANJAVUR-613001,TAMILNADU,INDIA</p>
       <p>Phone:9344524024</p>
-      <p>Email: jayavarthanp@example.com</p>
+      <p>Email: jayavarthanp@gmail.com</p>
     </div>
   </main>
 
   <footer>
-    <p>Designed and developed by JAYAVARTHAN</p>
+    <p>Designed and developed by JAYAVARTHAN P</p>
   </footer>
 </body>
 </html>
+
+
+      
+
 ```
 
             
 
 ## Output:
-![Screenshot (57)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/c9a119c1-9c11-4181-8c27-11a14c2e7b13)
-![Screenshot (58)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/a4722f0b-fe2f-4fad-8ea5-bec43b234fe0)
-![Screenshot (59)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/cdfe8c14-8496-4803-8f27-c45445f672fe)
-![Screenshot (55)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/71197c4c-1a90-4c12-ae7e-9d2f11565336)
-![Screenshot (56)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/dcd4578f-d09d-4003-a9c8-0764cad754ef)
+
+![Screenshot (60)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/1b62fe7f-ce9e-4218-b660-efefdf893f3f)
+![Screenshot (61)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/f51819e5-f45e-4777-af98-0b53c2a9f7b5)
+![Screenshot (62)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/710c4ee1-4127-47c2-800d-62aa9c501de7)
+![Screenshot (63)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/480461ec-36fd-4fae-a1d0-5edf9235b344)
+![Screenshot (64)](https://github.com/JAYAVARTHAN-P/Productweb/assets/121369281/80e7a865-dd58-439c-a065-e011e9cdc678)
+
+
 
 
 
